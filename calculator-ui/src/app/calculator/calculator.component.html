@@ -1,0 +1,21 @@
+<div class="calculator">
+  <input
+    [(ngModel)]="expression"
+    (input)="onExpressionChange()"
+    placeholder="Enter Expression"
+  />
+  <!--  <button (click)="evaluateExpression()">Evaluate</button>
+
+  <div *ngIf="result !== ''">
+    <h2>Result: {{ result }}</h2>
+  </div>
+
+  <div *ngIf="history.length > 0">
+    <h3>History:</h3>
+    <ul>
+      <li *ngFor="let item of history">
+        {{ item.expression }} = {{ item.result }}
+      </li>
+    </ul>
+  </div> -->
+</div>
